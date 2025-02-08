@@ -1,0 +1,58 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-inline: 6rem;
+    padding-block: 6rem;
+    min-block-size: 100vh;
+  }
+  
+  .form {
+    max-inline-size: 600px;
+    inline-size: 100%;
+  }
+  
+  .label {
+    display: flex;
+    margin-block-end: 10px;
+  }
+  
+  .formGroup {
+    margin-block-end: 20px;
+  }
+  
+  .formGroup label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .formGroup input,
+  .formGroup textarea {
+    inline-size: 100%;
+    padding-inline: 10px;
+    padding-block: 10px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 4px;
+  }
+  
+  .formGroup textarea {
+    resize: vertical;
+  }
+  
+  .button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding-block: 10px;
+    padding-inline: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    inline-size: 100%;
+  }
+  
+  .button[type="submit"]:hover[type="submit"]:hover {
+    background-color: #0056b3;
+  }
